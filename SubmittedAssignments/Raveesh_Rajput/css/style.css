@@ -5,18 +5,18 @@ body {
     align-items: center;
     height: 730px;
 } 
+
 .greeting-wrapper {
   position: relative;
   width: 396.8503937px;
   height: 559.37007874px;
   background-color: #F0F1EC;
-  /* border: 2px solid #e0e0e0; */
   border-radius: 10px;
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
+
 .greeting-img img {
   position: absolute;
   left: -10px;
@@ -24,6 +24,7 @@ body {
   width: 130px;
   height: 220px;
 }
+
 .greeting-img1 img {
   position: absolute;
   right: 0px;
@@ -31,6 +32,7 @@ body {
   width: 171px;
   height: 230px;
 }
+
 .greeting-img2 img {
   position: absolute;
   right: -15px;
@@ -38,6 +40,7 @@ body {
   width: 130px;
   height: 300px;
 }
+
 .greeting-content {
   position: absolute;
     top: 130px;
@@ -46,6 +49,7 @@ body {
     text-align: center;
     flex-grow: 1;
 }
+
 .greeting-recipient-name {
     text-align: center;
     font-size: 40px;
@@ -54,6 +58,7 @@ body {
     font-weight: bold;
     font-family: 'Alex Brush';
 }
+
 .greeting-heading {
   text-align: center;
   font-size: 18.2px;
@@ -62,6 +67,7 @@ body {
   font-weight: bold;
   font-family: 'Arial', sans-serif;
 }
+
 .greeting-sub-heading {
   font-size: 15px;
   color: #696969;
@@ -69,6 +75,7 @@ body {
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
+
 .greeting-pre-message, 
 .greeting-message, 
 .greeting-closing-message, 
@@ -82,11 +89,13 @@ body {
   line-height: 1.5;
   text-align: center;
 }
+
 .greeting-message {
   font-style: italic;
   color: #ff69b4;
   text-align: center;
 }
+
 .greeting-sender-name {
   font-size: 16px;
   color: #c71585;
@@ -94,6 +103,7 @@ body {
   font-weight: bold;
   text-align: center;
 }
+
 .greeting-special-instructions {
   margin-top: 7px;
     font-size: 12.6px;
@@ -101,6 +111,7 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
 /* Optional: Add a background pattern or subtle texture */
 .greeting-wrapper::before {
     content: '';
