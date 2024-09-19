@@ -1,0 +1,148 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+.greeting-wrapper {
+  position: absolute;
+  width: 104.850394mm;
+  height: 150.370079mm;
+  background-color: #ffffff;
+  border: 2px solid #d8aeae;
+  border-radius: 7mm;
+  box-shadow: 5mm 4mm 8mm gray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.greeting-img{
+  position: absolute;
+  left: 47mm;
+  top: -24mm;
+  width: 80mm;
+  height: 25mm;
+  transform: rotate(-76deg);
+  z-index: 2;
+}
+
+.greeting-img-2{
+  position: absolute;
+  left: -23mm;
+  top: 138mm;
+  width: 72mm;
+  height: 46mm;
+  transform: rotate(75deg);
+  z-index: 2;
+}
+
+
+.greeting-content .greeting-recipient-name{
+  position: absolute;
+  left: 6mm;
+  top: 7mm;
+  font-size: 31pt;
+  color: rgb(250, 3, 139);
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  line-height: 1;
+}
+
+
+.greeting-heading{
+  position: absolute;
+  left: 14mm;
+  top: 44mm;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-size: 15pt;
+  color: brown;
+}
+.greeting-sub-heading{
+  position: absolute;
+  left: 12mm;
+  top: 54mm;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  color: brown;
+}
+.greeting-pre-message{
+  position: absolute;
+  left: 23mm;
+  top: 64mm;
+  font-family: "Playwrite HR Lijeva", cursive;
+  color: rgb(10, 0, 0);
+}
+
+.greeting-message{
+  position: absolute;
+  left: 17mm;
+  top: 75mm;
+  font-size: 15pt;
+  font-family: "Dancing Script", cursive;
+  color: rgb(250, 3, 119);
+  text-align: center;
+}
+
+.greeting-closing-message{
+  position: absolute;
+  left: 45mm;
+  top: 104mm;
+  font-size: 15pt;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  color: rgb(10, 0, 0);
+  text-align: center;
+}
+.greeting-sender-name{
+  position: absolute;
+  left: 40mm;
+  top: 110mm;
+  font-size: 18pt;
+  font-family: "Caveat", cursive;
+  color: rgb(195, 64, 64);
+  text-align: center;
+}
+
+.greeting-personal-note {
+  position: absolute;
+  left: 14mm;
+  top: 119mm;
+  font-size: 16pt;
+  line-height: 1;
+  font-family: "Caveat", cursive;
+  color: rgb(195, 64, 64);
+  text-align: center;
+}
+.greeting-date{
+  position: absolute;
+  left: 40mm;
+  top: 125mm;
+  font-size: 13pt;
+  font-family: "Caveat", cursive;
+  color: rgb(195, 64, 64);
+  text-align: center;
+}
+.greeting-occasion{
+  position: absolute;
+  left: 46mm;
+  top: 131mm;
+  font-size: 13pt;
+  font-family: "Caveat", cursive;
+  color: rgb(195, 64, 64);
+  text-align: center;
+}
+.greeting-special-instructions{
+  position: absolute;
+  left: 30mm;
+  top: 137mm;
+  font-size: 13pt;
+  font-family: "Caveat", cursive;
+  color: rgb(241 156 8);
+  text-align: center;
+  line-height: 1;
+}
