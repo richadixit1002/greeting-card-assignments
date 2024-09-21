@@ -29,7 +29,7 @@ body {
   text-align: center;
   font-size: 41px;
   color: #c71585;
-  margin-top: 20mm;
+  margin-top: 75.60px;
   font-weight: bold;
   position: relative;
   font-family: 'Alex Brush';
@@ -38,17 +38,17 @@ body {
   text-align: center;
   font-size: 19.2px;
   color: #8b0000;
-  margin-top: -38mm;
+  margin-top: -143.62px;
   font-weight: bold;
   font-family: 'italic';
 }
 .greeting-sub-heading {
   font-size: 10px;
   color: black;
-  margin-top: 9mm;
-  width: 94mm;
-  margin-right: 9mm;
-  margin-left: 5mm;
+  margin-top: 34px;
+  width: 355.28px;
+  margin-right: 34px;
+  margin-left: 18.90px;
   font-family: 'italic';
   text-align: center;
   position: absolute;
@@ -56,23 +56,23 @@ body {
 .greeting-pre-message, 
 .greeting-message,
 .greeting-closing-message{
-  font-size: 3.5mm;
+  font-size: 13.22px;
   color: black;
-  margin-top: 10mm;
+  margin-top: 37.80px;
   font-family: 'italic';
   text-align: center;
 }
 .greeting-personal-note{
-  font-size: 3.4mm;
+  font-size: 12.85px;
   color: black;
-  margin-top: 9mm;
+  margin-top: 34px;
   font-family: italic;
   text-align: center;
 }
 .greeting-date{
-  font-size: 4.5mm;
+  font-size: 17px;
   color: black;
-  margin-top: -31mm;
+  margin-top: -117.16px;
   font-family: 'italic';
   text-align: center;
 }
@@ -82,11 +82,11 @@ body {
   font-style: italic;
   color: black;
   text-align: center;
-  margin-top: 37mm;
-  width: 83mm;
-  margin-left: 12mm;
-  height: 12mm;
-  font-size: 3.8mm;
+  margin-top: 140px;
+  width: 313.8px;
+  margin-left: 45.35px;
+  height: 45.35;
+  font-size: 14.36px;
   font-family: 'italic';
 }
 .greeting-sender-name {
@@ -97,8 +97,8 @@ body {
   text-align: center;
 }
 .greeting-special-instructions {
-  margin-top: -50px;
-  font-size: 3.4mm;
+  margin-top: -10px;
+  font-size: 12.85px;
   color: black;
   font-weight: bold;
   text-align: center;
