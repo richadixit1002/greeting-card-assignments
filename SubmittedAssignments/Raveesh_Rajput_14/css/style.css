@@ -1,0 +1,125 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+} 
+
+.greeting-wrapper {
+  position: relative;
+  width: 396.8503937px;
+  height: 559.37007874px;
+  background-color: #F0F1EC;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting-img img {
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  width: 130px;
+  height: 220px;
+}
+
+.greeting-img1 img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 171px;
+  height: 230px;
+}
+
+.greeting-img2 img {
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+  width: 130px;
+  height: 300px;
+}
+
+.greeting-content {
+  position: absolute;
+    top: 130px;
+    overflow: hidden;
+    left: 50px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.greeting-recipient-name {
+    text-align: center;
+    font-size: 40px;
+    color: #c71585;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+}
+
+.greeting-heading {
+  text-align: center;
+  font-size: 18.2px;
+  color: #8b0000;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+
+.greeting-sub-heading {
+  font-size: 15px;
+  color: #696969;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.greeting-pre-message, 
+.greeting-message, 
+.greeting-closing-message, 
+.greeting-personal-note,
+.greeting-date,
+.greeting-occasion,
+.greeting-special-instructions {
+  font-size: 14.4px;
+  color: #333333;
+  margin-bottom: -3px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.greeting-message {
+  font-style: italic;
+  color: #ff69b4;
+  text-align: center;
+}
+
+.greeting-sender-name {
+  font-size: 16px;
+  color: #c71585;
+  margin-top: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.greeting-special-instructions {
+  margin-top: 7px;
+    font-size: 12.6px;
+    color: #8b0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Optional: Add a background pattern or subtle texture */
+.greeting-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
