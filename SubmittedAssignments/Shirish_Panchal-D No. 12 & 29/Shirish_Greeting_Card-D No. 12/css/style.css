@@ -6,14 +6,13 @@ body {
     height: 193.15mm;
 } 
 .greeting-wrapper {
-    width: 396.8503937px; /* 396.85 pixels width */
-    height: 559.37007874px; /* 559.37 pixels height */
-    background-color: #ffffff;
-    border: 0.6mm solid #e0e0e0;
-    border-radius: 10px;
-    box-shadow: 0 2.2mm 4.3mm rgba(0, 0, 0, 0.1);
-    
-    z-index: 1;
+  width: 109mm;
+  height: 154mm;
+  background-color: #ffffff;
+  border: 0.6mm solid #e0e0e0;
+  border-radius: 5mm;
+  box-shadow: 0 2.2mm 4.3mm rgba(0, 0, 0, 0.1);
+  z-index: 1;
     
 }
 .greeting-img img {
