@@ -3,25 +3,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 193.15mm;
+    height: 730.01574803px;
 } 
 .greeting-wrapper {
-  width: 109mm;
-  height: 154mm;
+  width: 411.96850394px;
+  height: 582.04724409px;
   background-color: #ffffff;
-  border: 0.6mm solid #e0e0e0;
-  border-radius: 5mm;
-  box-shadow: 0 2.2mm 4.3mm rgba(0, 0, 0, 0.1);
+  border: 2.2677165354px solid #e0e0e0;
+  border-radius: 18.897637795px;
+  box-shadow: 0 8.3149606299px 16.251968504px rgba(0, 0, 0, 0.1);
   z-index: 1;
     
 }
 .greeting-img img {
   position: absolute;
-  width: 125mm;
-  height: 188mm;
-  top: 10mm;
-  margin-right: 10mm;
-  box-shadow: 3mm 3mm 5mm gray;
+  width: 472.44094488px;
+  height: 710.5511811px;
+  top: 37.795275591px;
+  margin-right: 37.795275591px;
+  box-shadow: 11.338582677px 11.338582677px 18.897637795px gray;
   z-index: -1;
 }
 
@@ -30,34 +30,34 @@ body {
     text-align: center;
     flex-grow: 1;
     z-index: 1;
-    margin-left: 13mm;
-    margin-top:-5mm;
+    margin-left: 49.133858268px;
+    margin-top:-18.897637795px;
 }
 .greeting-recipient-name {
   text-align: center;
-  font-size: 13.3mm;
+  font-size: 50.267716535px;
   color: #c71585;
-  margin-bottom: 0mm;
-  margin-left: 8mm;
-  margin-top: 4mm;
+  margin-bottom: 0px;
+  margin-left: 30.236220472px;
+  margin-top: 15.118110236px;
   font-weight: bold;
   font-family: 'Alex Brush';
   z-index: 2;
 }
 .greeting-heading {
   text-align: center;
-  font-size: 7mm;
+  font-size: 26.456692913px;
   color: #8b0000;
-  margin-bottom: 4mm;
-  margin-left: 6mm;
+  margin-bottom:15.118110236px;
+  margin-left: 22.677165354px;
   font-weight: bold;
   font-family: 'Arial', sans-serif;
 }
 .greeting-sub-heading {
   font-size: 18pt;
   color: #dfb80f;
-  margin-bottom: 2mm;
-  margin-left: 8mm;
+  margin-bottom: 7.5590551181px;
+  margin-left: 30.236220472px;
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
@@ -72,7 +72,7 @@ body {
   color: #0f0e0c;
   line-height: 1.5;
   text-align: center;
-  margin-left: 10mm;
+  margin-left: 37.795275591px;
   font-weight: 300;
 }
 .greeting-message {
@@ -83,16 +83,16 @@ body {
 .greeting-sender-name {
   font-size: 16pt;
   color: #c71585;
-  margin-top: 2mm;
+  margin-top: 7.5590551181px;
   font-weight: bold;
-  margin-left: 8mm;
+  margin-left: 30.236220472px;
 }
 .greeting-special-instructions {
-  margin-top: -0.4mm;
-  font-size: 4.6mm;
+  margin-top: -1.5118110236px;
+  font-size: 17.385826772px;
   color: #8b0000;
   font-weight: bold;
-  margin-left: 1mm;
+  margin-left: 3.7795275591px;
 }
 
 /* Optional: Add a background pattern or subtle texture */
