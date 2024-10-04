@@ -1,0 +1,146 @@
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} 
+.greeting-wrapper {
+  position: absolute;
+  width: 385px;
+  height: 592px;
+  background-color: #ffffff;
+  border: 9.45px solid #d8aeae;
+  border-radius: 26.46px;
+  box-shadow: 18.9px 15.1px 30.2px gray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.greeting-img {
+  position: absolute;
+  left: 180px;
+  top: -98.7px;
+  width: 323px;
+  height: 148.5px;
+  transform: rotate(-76deg);
+  z-index: 2;
+}
+
+.greeting-img-2 {
+  position: absolute;
+  left: -115.9px;
+  top: 521px;
+  width: 272px;
+  height: 173.9px;
+  transform: rotate(75deg);
+  z-index: 2;
+}
+
+.greeting-content .greeting-recipient-name {
+position: absolute;
+left: 22.7px; /* 6mm * 3.7795275591 */
+top: 26.8px; /* 7mm * 3.7795275591 */
+font-size: 41.49px;
+color: rgb(250, 3, 139);
+font-family: "Merienda", cursive;
+font-optical-sizing: auto;
+font-style: normal;
+text-align: center;
+line-height: 1;
+}
+
+.greeting-heading {
+position: absolute;
+left: 52.9px; /* 14mm * 3.7795275591 */
+top: 166px; /* 44mm * 3.7795275591 */
+font-family: "Edu AU VIC WA NT Hand", cursive;
+font-optical-sizing: auto;
+font-size: 20.08px;
+color: brown;
+}
+.greeting-sub-heading {
+position: absolute;
+left: 45.35px; /* 12mm * 3.7795275591 */
+top: 204px; /* 54mm * 3.7795275591 */
+font-family: "Edu AU VIC WA NT Hand", cursive;
+font-optical-sizing: auto;
+color: brown;
+}
+.greeting-pre-message {
+position: absolute;
+left: 86.9px; /* 23mm * 3.7795275591 */
+top: 242.2px; /* 64mm * 3.7795275591 */
+font-family: "Playwrite HR Lijeva", cursive;
+color: rgb(10, 0, 0);
+}
+
+.greeting-message {
+position: absolute;
+left: 64.25px; /* 17mm * 3.7795275591 */
+top: 283.4px; /* 75mm * 3.7795275591 */
+font-size: 20.0752px;
+font-family: "Dancing Script", cursive;
+color: rgb(250, 3, 119);
+text-align: center;
+}
+
+.greeting-closing-message {
+position: absolute;
+left: 170.1px; /* 45mm * 3.7795275591 */
+top: 393.2px; /* 104mm * 3.7795275591 */
+font-size: 20.0752px;
+font-family: "Caveat", cursive;
+font-optical-sizing: auto;
+color: rgb(10, 0, 0);
+text-align: center;
+}
+.greeting-sender-name {
+position: absolute;
+left: 151.2px; /* 40mm * 3.7795275591 */
+top: 415.7px; /* 110mm * 3.7795275591 */
+font-size: 24.0896px;
+font-family: "Caveat", cursive;
+color: rgb(195, 64, 64);
+text-align: center;
+}
+
+.greeting-personal-note {
+position: absolute;
+left: 52.9px; /* 14mm * 3.7795275591 */
+top: 448.2px; /* 119mm * 3.7795275591 */
+font-size: 21.4128px;
+line-height: 1;
+font-family: "Caveat", cursive;
+color: rgb(195, 64, 64);
+text-align: center;
+}
+.greeting-date {
+position: absolute;
+left: 151.2px; /* 40mm * 3.7795275591 */
+top: 472.8px; /* 125mm * 3.7795275591 */
+font-size: 17.4px;
+font-family: "Caveat", cursive;
+color: rgb(195, 64, 64);
+text-align: center;
+}
+.greeting-occasion {
+position: absolute;
+left: 173.8px; /* 46mm * 3.7795275591 */
+top: 494.6px; /* 131mm * 3.7795275591 */
+font-size: 17.3984px;
+font-family: "Caveat", cursive;
+color: rgb(195, 64, 64);
+text-align: center;
+}
+.greeting-special-instructions {
+position: absolute;
+left: 113.4px; /* 30mm * 3.7795275591 */
+top: 517px; /* 137mm * 3.7795275591 */
+font-size: 17.3984px;
+font-family: "Caveat", cursive;
+color: rgb(241 156 8);
+text-align: center;
+line-height: 1;
+} 
