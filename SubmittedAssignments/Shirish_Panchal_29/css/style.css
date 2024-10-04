@@ -42,7 +42,7 @@ body {
 position: absolute;
 left: 22.7px; /* 6mm * 3.7795275591 */
 top: 26.8px; /* 7mm * 3.7795275591 */
-font-size: 31pt;
+font-size: 41.49px;
 color: rgb(250, 3, 139);
 font-family: "Merienda", cursive;
 font-optical-sizing: auto;
@@ -57,7 +57,7 @@ left: 52.9px; /* 14mm * 3.7795275591 */
 top: 166px; /* 44mm * 3.7795275591 */
 font-family: "Edu AU VIC WA NT Hand", cursive;
 font-optical-sizing: auto;
-font-size: 15pt;
+font-size: 20.08px;
 color: brown;
 }
 .greeting-sub-heading {
@@ -80,7 +80,7 @@ color: rgb(10, 0, 0);
 position: absolute;
 left: 64.25px; /* 17mm * 3.7795275591 */
 top: 283.4px; /* 75mm * 3.7795275591 */
-font-size: 15pt;
+font-size: 20.0752px;
 font-family: "Dancing Script", cursive;
 color: rgb(250, 3, 119);
 text-align: center;
@@ -90,7 +90,7 @@ text-align: center;
 position: absolute;
 left: 170.1px; /* 45mm * 3.7795275591 */
 top: 393.2px; /* 104mm * 3.7795275591 */
-font-size: 15pt;
+font-size: 20.0752px;
 font-family: "Caveat", cursive;
 font-optical-sizing: auto;
 color: rgb(10, 0, 0);
@@ -100,7 +100,7 @@ text-align: center;
 position: absolute;
 left: 151.2px; /* 40mm * 3.7795275591 */
 top: 415.7px; /* 110mm * 3.7795275591 */
-font-size: 18pt;
+font-size: 24.0896px;
 font-family: "Caveat", cursive;
 color: rgb(195, 64, 64);
 text-align: center;
@@ -110,7 +110,7 @@ text-align: center;
 position: absolute;
 left: 52.9px; /* 14mm * 3.7795275591 */
 top: 448.2px; /* 119mm * 3.7795275591 */
-font-size: 16pt;
+font-size: 21.4128px;
 line-height: 1;
 font-family: "Caveat", cursive;
 color: rgb(195, 64, 64);
@@ -120,7 +120,7 @@ text-align: center;
 position: absolute;
 left: 151.2px; /* 40mm * 3.7795275591 */
 top: 472.8px; /* 125mm * 3.7795275591 */
-font-size: 13pt;
+font-size: 17.4px;
 font-family: "Caveat", cursive;
 color: rgb(195, 64, 64);
 text-align: center;
@@ -129,7 +129,7 @@ text-align: center;
 position: absolute;
 left: 173.8px; /* 46mm * 3.7795275591 */
 top: 494.6px; /* 131mm * 3.7795275591 */
-font-size: 13pt;
+font-size: 17.3984px;
 font-family: "Caveat", cursive;
 color: rgb(195, 64, 64);
 text-align: center;
@@ -138,7 +138,7 @@ text-align: center;
 position: absolute;
 left: 113.4px; /* 30mm * 3.7795275591 */
 top: 517px; /* 137mm * 3.7795275591 */
-font-size: 13pt;
+font-size: 17.3984px;
 font-family: "Caveat", cursive;
 color: rgb(241 156 8);
 text-align: center;

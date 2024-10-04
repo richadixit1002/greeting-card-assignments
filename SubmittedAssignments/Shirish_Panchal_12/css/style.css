@@ -54,7 +54,7 @@ body {
   font-family: 'Arial', sans-serif;
 }
 .greeting-sub-heading {
-  font-size: 18pt;
+  font-size: 24px;
   color: #dfb80f;
   margin-bottom: 7.5590551181px;
   margin-left: 30.236220472px;
@@ -68,7 +68,7 @@ body {
 .greeting-date,
 .greeting-occasion,
 .greeting-special-instructions {
-  font-size: 11pt;
+  font-size: 14.66px;
   color: #0f0e0c;
   line-height: 1.5;
   text-align: center;
@@ -81,7 +81,7 @@ body {
   text-align: center;
 }
 .greeting-sender-name {
-  font-size: 16pt;
+  font-size: 21.33px;
   color: #c71585;
   margin-top: 7.5590551181px;
   font-weight: bold;
