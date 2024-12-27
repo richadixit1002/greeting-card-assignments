@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.outer{
+    background-color: whitesmoke;
+    padding-left: 35px;
+    padding-top: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 590px;
+    height: 730px;
+    border: 2px solid white;
+}
+
+
+.inner{
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 5px;
+    width: 500px;
+    height: 600px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+}
+
+.flower-image {
+    width: 50%;
+    height: 100px;
+    border: none;
+    rotate: 180deg;
+    margin-right: 500px;
+    margin-bottom: 2px;
+}
+
+.flower-image1 {
+    width: 52%;
+    height: 105px;
+    border: none;
+    margin-left: 230px;
+    margin-top: 25px;
+    /* rotate: 180deg; */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.greeting-content {
+    text-align: center;
+    flex-grow: 1;
+}
+.greeting-recipient-name {
+    text-align: center;
+    font-size: 40px;
+    color: #c71585;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+}
+.greeting-heading {
+  text-align: center;
+  font-size: 19.2px;
+  color: #8b0000;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+}
+.greeting-sub-heading {
+  font-size: 16px;
+  color: #696969;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+.greeting-pre-message, 
+.greeting-message, 
+.greeting-closing-message, 
+.greeting-personal-note,
+.greeting-date,
+.greeting-occasion,
+.greeting-special-instructions {
+  font-size: 14.4px;
+  color: #333333;
+  margin-bottom: -3px;
+  line-height: 1.5;
+  text-align: center;
+}
+.greeting-message {
+  font-style: italic;
+  color: deeppink;
+  text-align: center;
+}
+.greeting-sender-name {
+  font-size: 16px;
+  color: #c71585;
+  margin-top: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+.greeting-special-instructions {
+  margin-top: 7px;
+    font-size: 13.6px;
+    color: #8b0000;
+    font-weight: bold;
+    text-align: center;
+}
