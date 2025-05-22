@@ -7,9 +7,10 @@ Your focus should be on **aesthetic appeal, layout creativity, and responsive de
 
 🔗 **Live Deployment Format:**
 `https://services.apnasite.in/greeting-card-assignments/[YourName_AssignmentNumber]/preview.html`
+**Sample:** [https://services.apnasite.in/greeting-card-assignments/Adarsh_Ovhal_19/preview.html](https://services.apnasite.in/greeting-card-assignments/Adarsh_Ovhal_19/preview.html)
 
 🔗 **GitHub Repository:**
-👉 [https://github.com/Apnasite/Greeting-card-assignments](https://github.com/Apnasite/Greeting-card-assignments)
+👉 [https://github.com/Apnasite/greeting-card-assignments](https://github.com/Apnasite/greeting-card-assignments)
 
 ---
 
@@ -35,17 +36,31 @@ greeting-card-assignments/
 
 ---
 
-## 🧱 HTML Structure Instructions
+## 🧱 HTML Structure Guidelines
 
-You are **only allowed to edit** the following part of `preview.html`:
+### ✅ You Can Modify: `preview.html`
 
 ```html
 <div class="greeting-card-background">
-  <!-- ✅ Add your custom content, SVGs, flowers, and layout styling here -->
+  <!-- ✅ Add or edit content/styling elements here -->
 </div>
 ```
 
-Do **not modify** anything outside this div.
+### ❌ Do NOT Modify:
+
+```html
+<div class="greeting-card-content">
+  <!-- ❌ Keep everything inside this div unchanged -->
+</div>
+```
+
+### Add/Copy new background html block `index.html`:
+
+```html
+<div class="greeting-card-background">
+  <!-- ✅ Add or edit content/styling elements here -->
+</div>
+```
 
 ---
 
